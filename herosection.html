@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Animation with Pha5e</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pha5e-container">
+            <span class="letter" id="p">A</span>
+            <span class="letter" id="h">R</span>
+            <span class="letter" id="a">T</span>
+            <span class="letter" id="five">&</span>
+            <span class="letter" id="e">P</span>
+            <span class="letter" id="p">A</span>
+            <span class="letter" id="h">I</span>
+            <span class="letter" id="a">N</span>
+            <span class="letter" id="five">T</span>
+            
+        </div>
+        <div class="content-container">
+            <div class="row">
+                <div class="card" onclick="revealContent(this)">
+                    <img src="https://cdn11.bigcommerce.com/s-x49po/images/stencil/1500x1500/products/62041/261586/1607601332291_IMG_20201128_134909__85629.1687170945.jpg?c=2&imbypass=on" alt="Art Image 1" class="interactive-image">
+                    <div class="card-text">Image One</div>
+                </div>
+                <div class="card" onclick="revealContent(this)">
+                    <img src="https://as1.ftcdn.net/v2/jpg/02/73/22/74/1000_F_273227473_N0WRQuX3uZCJJxlHKYZF44uaJAkh2xLG.jpg" alt="Image 2" class="interactive-image">
+                    <div class="card-text">Image Two</div>
+                </div>
+            </div>
+            <div class="text-wrapper">
+                <h4 class="interactive-text">ART IS WHERE LIFE BECOMES POETRY</h4>
+            </div>
+            <div class="row">
+                <div class="card" onclick="revealContent(this)">
+                    <img src="https://as1.ftcdn.net/v2/jpg/02/98/11/76/1000_F_298117627_neaI5EvfL3VGOPHKevRhUkTK1i7l9man.jpg" alt="Image 3" class="interactive-image">
+                    <div class="card-text">Image Three</div>
+                </div>
+                <div class="card" onclick="revealContent(this)">
+                    <img src="https://img.freepik.com/premium-photo/painting-workshop-artistic-equipment-easel-paint-brushes-tubes-paint-palette-paintings-work-table-artist-studio_223582-2043.jpg?w=900" alt="Image 4" class="interactive-image">
+                    <div class="card-text">Image Four</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
